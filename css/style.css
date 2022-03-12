@@ -6,6 +6,7 @@
 
 /* import css */
 @import "utilities.css";
+
 /* -------------------------------default ------------------------------*/
 :root{
     --primary: #3DCFD3;
@@ -18,6 +19,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 *{
@@ -112,7 +117,7 @@ header nav .logo{
 /* -----------------------------------------about -----------------------*/
 section.about .about-me-img{
     height: 450px;
-    width: 458px;
+    width: 350px;
     object-fit: cover;
 }
 section.about h1{
@@ -391,6 +396,9 @@ section.our_works .cart_wrapper .cart_singal .overley a{
 section.our_works .cart_wrapper .cart_singal:hover .overley {
     opacity: 1;
 }
+
+
+
 /* --------------------------------------blog -------------------------*/
 .blog{
     background: var(--dark);
@@ -409,6 +417,7 @@ section.blog .blog_weppar{
     
 }
 section.blog .blog_weppa .img_wrapper img{
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
@@ -555,5 +564,3 @@ footer .copyright{
     color: var(--ternary);
     padding-bottom: 3rem;
 }
-
-
